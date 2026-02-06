@@ -1,0 +1,33 @@
+1 Write code to implement VRC
+2 Write code to implement LRC  
+3 Write code to implement CRC
+4 Write code to implement Humming code 
+
+
+5.wrtie a c program to eliminate th duplicate frames from the frame sequence numbers such as 1,3,2,5,2,3 display the ouput in a sorted manner 
+6.write a program to calcuate single bit parity input should be binary 
+7.write a program to simulate the relationship b/w numbers of bits per signal to levels formula n=logl base 2
+8.write a program to determine the noise less channels capacity using nyquist theorem formula bitrate = 2*bandwidth *logl base 2
+9.write a program that sends a ping request to a given host and prints back the rresponse time
+10. do for multiple host also  
+
+(13-01-2026)
+
+11. Write a program that continuouly bring a host and provide real time update
+12. WAP that ping range of IPadress to detect active host.
+13. WAP to measure packet loss over multiple pings.
+14. WAP to measure the percentage of packet loss during network communication.
+15. WAP to test if a network allows ICMP request to broadcast address.
+16. Write a command line to send ICMP echo request message to test network connectivity and measure round trip time.
+17. Write a command line for flood ping that send large number of ICMP request to test a network.
+18. Write a command line to trace route map the path packets to take to a destination using ICMP time exceeded reponses.
+19. (MTR) Write a command line that combine ping and trace root functionality for real time root analysis.
+20. (Path ping)Write a command line that combine ping and trace root for detail half by half network performance. 
+
+21. Calculate the max data rate of the noiseless with the bandwidth of 3 KHz and 4 signal levels using nyquist formula.
+
+22. Given a chhenal with 10Mhz and a data rate of 60mbps determine the minimum number of signal levels required using nquist theorem
+
+23. Plot data rate vs signal levels for a Skilohz from 2 to 64
+
+24. A communication system uses quam modulation with the signal levels if bandwidth is 1 mHZ calcuate the max achiveable data rate. 
