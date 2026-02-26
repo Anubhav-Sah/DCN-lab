@@ -3,96 +3,97 @@ DCN ASSIGNMENT
 
 (13-01-2026)
 
-Write a program to implement VRC (Vertical Redundancy Check).
+1)Write a program to implement VRC (Vertical Redundancy Check).
 
-Write a program to implement LRC (Longitudinal Redundancy Check).
+2)Write a program to implement LRC (Longitudinal Redundancy Check).
 
-Write a program to implement CRC (Cyclic Redundancy Check).
+3)Write a program to implement CRC (Cyclic Redundancy Check).
 
-Write a program to implement Hamming Code.
+4. Write a program to implement Hamming Code.
 
-Write a C program to eliminate duplicate frame sequence numbers such as 1, 3, 2, 5, 2, 3 and display the output in sorted order.
+5. Write a C program to eliminate duplicate frame sequence numbers such as 1, 3, 2, 5, 2, 3 and display the output in sorted order.
 
-Write a program to calculate single-bit parity. (Input should be in binary)
+6. Write a program to calculate single-bit parity. (Input should be in binary)
 
-Write a program to simulate the relationship between number of bits per signal and number of signal levels using the formula:
+7. Write a program to simulate the relationship between number of bits per signal and number of signal levels using the formula:
 n = log2(L)
 
-Write a program to determine the capacity of a noiseless channel using Nyquist Theorem:
+8.Write a program to determine the capacity of a noiseless channel using Nyquist Theorem:
 Bitrate = 2 * Bandwidth * log2(L)
 
-Write a program that sends a ping request to a given host and prints the response time.
+9.Write a program that sends a ping request to a given host and prints the response time.
 
-Write a program to send ping requests to multiple hosts.
+10. Write a program to send ping requests to multiple hosts.
 
 (13-01-2026 – Continued)
 
-Write a program that continuously pings a host and provides real-time updates.
+11. Write a program that continuously pings a host and provides real-time updates.
 
-Write a program to ping a range of IP addresses to detect active hosts.
+12. Write a program to ping a range of IP addresses to detect active hosts.
 
-Write a program to measure packet loss over multiple pings.
+13. Write a program to measure packet loss over multiple pings.
 
-Write a program to calculate the percentage of packet loss during network communication.
+14. Write a program to calculate the percentage of packet loss during network communication.
 
-Write a program to test whether a network allows ICMP requests to a broadcast address.
+15. Write a program to test whether a network allows ICMP requests to a broadcast address.
 
-Write the command line to send an ICMP Echo Request to test network connectivity and measure round-trip time.
+16. Write the command line to send an ICMP Echo Request to test network connectivity and measure round-trip time.
 
-Write the command line for flood ping that sends a large number of ICMP requests to test network performance.
+17. Write the command line for flood ping that sends a large number of ICMP requests to test network performance.
 
-Write the command line to trace the route and map the path packets take to a destination using ICMP Time Exceeded responses.
+18. Write the command line to trace the route and map the path packets take to a destination using ICMP Time Exceeded responses.
 
-(MTR) Write the command line that combines ping and traceroute functionality for real-time route analysis.
+19. (MTR) Write the command line that combines ping and traceroute functionality for real-time route analysis.
 
-(PathPing) Write the command line that combines ping and traceroute for detailed hop-by-hop network performance analysis.
+20. (PathPing) Write the command line that combines ping and traceroute for detailed hop-by-hop network performance analysis.
 
 Numerical Problems
 
-Calculate the maximum data rate of a noiseless channel with a bandwidth of 3 kHz and 4 signal levels using Nyquist formula.
+21. Calculate the maximum data rate of a noiseless channel with a bandwidth of 3 kHz and 4 signal levels using Nyquist formula.
 
-Given a channel with 10 MHz bandwidth and a data rate of 60 Mbps, determine the minimum number of signal levels required using Nyquist Theorem.
+22. Given a channel with 10 MHz bandwidth and a data rate of 60 Mbps, determine the minimum number of signal levels required using Nyquist Theorem.
 
-Plot Data Rate vs Signal Levels for a 5 kHz bandwidth, where signal levels vary from 2 to 64.
+23. Plot Data Rate vs Signal Levels for a 5 kHz bandwidth, where signal levels vary from 2 to 64.
 
-A communication system uses QAM modulation with given signal levels. If the bandwidth is 1 MHz, calculate the maximum achievable data rate.
+24. A communication system uses QAM modulation with given signal levels. If the bandwidth is 1 MHz, calculate the maximum achievable data rate.
 
 (19-02-2026)
 
-Use any one simulation software to simulate the effect of bandwidth and signal levels on data rate.
+25. Use any one simulation software to simulate the effect of bandwidth and signal levels on data rate.
 
-A communication channel has a bandwidth of 4 kHz and an SNR of 30 dB. Use Shannon Capacity Formula:
+26. A communication channel has a bandwidth of 4 kHz and an SNR of 30 dB. Use Shannon Capacity Formula:
 C = B * log2(1 + SNR)
 
-Convert the following SNR values from dB to linear scale:
+27. Convert the following SNR values from dB to linear scale:
 10 dB
 20 dB
 30 dB
 
-For an SNR of 20 dB and bandwidth of 5 MHz, calculate the channel capacity.
+28. For an SNR of 20 dB and bandwidth of 5 MHz, calculate the channel capacity.
 
-Use a simulation tool to add noise to a signal and observe the variation in SNR.
+29. Use a simulation tool to add noise to a signal and observe the variation in SNR.
 
-Write a short report explaining how SNR and bandwidth jointly affect the maximum achievable data rate in a communication system.
+30. Write a short report explaining how SNR and bandwidth jointly affect the maximum achievable data rate in a communication system.
 
 Programming Questions
 
-Write a program to implement a line coding technique.
+31. Write a program to implement a line coding technique.
 
-Write a program to read a block of message of size M x N and generate the code word matrix using the even parity check algorithm.
+32. Write a program to read a block of message of size M x N and generate the code word matrix using the even parity check algorithm.
 
-Write a program to read the IP address of a node and determine the class of IP address.
+33. Write a program to read the IP address of a node and determine the class of IP address.
 
-Write a program to read an IP address and check its validity.
+34. Write a program to read an IP address and check its validity.
 
-Write a program to read an IP address in dotted decimal notation and convert it into binary format and vice versa.
+35. Write a program to read an IP address in dotted decimal notation and convert it into binary format and vice versa.
 
-Write a procedure to capture HTTP traffic using Wireshark.
+36. Write a procedure to capture HTTP traffic using Wireshark.
 
-Write a procedure to capture DNS traffic using Wireshark.
+37. Write a procedure to capture DNS traffic using Wireshark.
 
-Write a procedure to capture ARP traffic using Wireshark.
+38. Write a procedure to capture ARP traffic using Wireshark.
+ 
+39. Write a procedure to capture the TCP three-way handshake using Wireshark.
 
-Write a procedure to capture the TCP three-way handshake using Wireshark.
+40. Write a procedure to capture ICMP packet traffic using Wireshark.
 
-Write a procedure to capture ICMP packet traffic using Wireshark.
